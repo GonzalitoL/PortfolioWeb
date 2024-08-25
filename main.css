@@ -32,7 +32,7 @@ p{
         top: 0;
     
     background: (#fedcfd);
-      background-image: url(https://img.itch.zone/aW1hZ2UvMjkwODkzMS8xNzUxMTEwOS5wbmc=/original/M3V%2FoP.png); 
+      background-image: linear-gradient(180deg, rgba(7,0,33,1) 0%, rgba(26,0,55,1) 50%, rgba(7,0,33,1) 100%);
     /* fallback */
       background-image:   
       linear-gradient(180deg, rgba(7,0,33,1) 0%, rgba(26,0,55,1) 50%, rgba(7,0,33,1) 100%);
