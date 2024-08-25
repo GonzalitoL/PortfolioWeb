@@ -7,28 +7,44 @@ p{
     color:  red;
 }
 
+.page-header{
+    position:absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 40px;
+    background-color: #5a4d4db9;
+}
+
+.testScrolling{
+    border: 2px solid #000000;
+    padding: 4000px 10px;
+}
+
 
 .custom-background{
+
     opacity: 1.0;
     position: fixed;
         width: 100%;
         height: 100%;
-        left:-120px;
+        left: 0px;
         top: 0;
     
     background: (#fedcfd);
-      background-image: url("images/BackgroundTest1.png"); 
+      background-image: url(https://img.itch.zone/aW1hZ2UvMjkwODkzMS8xNzUxMTEwOS5wbmc=/original/M3V%2FoP.png); 
     /* fallback */
-      background-image: url("images/BackgroundTest1.png"),  
-    linear-gradient(180deg, rgba(19,17,16,1) 0%, rgba(64,51,44,1) 50%, rgba(19,17,16,1) 100%);
+      background-image:   
+      linear-gradient(180deg, rgba(7,0,33,1) 0%, rgba(26,0,55,1) 50%, rgba(7,0,33,1) 100%);
     background-position: 50% 0;
     background-repeat: no-repeat;
     
     
-    transform: scale(1.6);
+    transform: scale(1);
     
     z-index: -99;
     }
+
 
 /* #region EstrellasCustom --------------------------------------------------*/
 
@@ -102,7 +118,7 @@ p{
         transform: translateY(0px);
       }
       to {
-        transform: translateY(-700px);
+        transform: translateY(-400px);
       }
     }
 
